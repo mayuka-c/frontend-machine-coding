@@ -1,0 +1,118 @@
+.todo-container {
+  border: 1px solid green;
+  max-width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.button-primary {
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  padding: 10px;
+}
+
+.input-text {
+  flex-grow: 6;
+  border-radius: 5px;
+}
+
+.add-button {
+  flex-grow: 2;
+  background-color: #32cd32;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #228b22;
+}
+
+.reset-button {
+  flex-grow: 2;
+  background-color: #ff6347;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #e5533c;
+}
+
+.todo-items-container {
+  width: 95%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.todo-item {
+  display: grid;
+  grid-template-columns: 30px 1fr 60px 60px;
+  grid-template-rows: auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.todo-item input[type="checkbox"] {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 3px;
+  transform: scale(1.2);
+}
+
+.todo-item span {
+  grid-column: 2;
+  grid-row: 1;
+  word-break: break-word;
+  font-size: 16px;
+  color: #333;
+}
+
+.update-button {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: #00bcd4;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #008ba3;
+}
+
+.delete-button {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: #ff4d4d;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+}
