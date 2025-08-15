@@ -1,0 +1,13 @@
+.progress-bar-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: green;
+  text-align: center;
+  padding: 2px;
+  text-align: right;
+  transition: 1.5s ease;
+}
