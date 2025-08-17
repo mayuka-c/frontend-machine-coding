@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "public",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 2,
+        "name": "vite.svg",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 4,
+        "name": "assets",
+        "isFolder": true,
+        "children": [
+          {
+            "id": 5,
+            "name": "react.svg",
+            "isFolder": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "data",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "data.json",
+            "isFolder": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "package.json",
+    "isFolder": false
+  }
+]
