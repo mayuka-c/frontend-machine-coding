@@ -1,12 +1,34 @@
-# React + Vite
+# Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A timer application that allows users to set a countdown timer with hours, minutes, and seconds.
 
-Currently, two official plugins are available:
+## Features
+- Set custom countdown values for hours, minutes, and seconds.
+- Start, pause, and reset the timer.
+- Resume the timer from the paused state.
+- Prevents multiple intervals from running simultaneously.
+- Handles input normalization (e.g., converts 90 seconds to 1 minute and 30 seconds).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+1. Navigate to the `timer` folder.
+2. Install dependencies using:
+   ```bash
+   npm install
+   ```
+3. Start the development server with:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+1. Enter the desired time in the input fields for hours, minutes, and seconds.
+2. Click the **Play** button to start the timer.
+3. Use the **Pause** button to pause the timer.
+4. Click the **Play** button again to resume the timer.
+5. Use the **Reset** button to reset the timer to its initial state.

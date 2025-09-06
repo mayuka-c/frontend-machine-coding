@@ -64,6 +64,15 @@ This repository contains multiple frontend projects designed to demonstrate and 
   - Auto-focus on next input field.
   - Validation for numeric and alphanumeric OTPs.
 
+### 11. [Timer](./timer)
+- **Description**: A timer application that allows users to set a countdown timer with hours, minutes, and seconds.
+- **Features**:
+  - Set custom countdown values for hours, minutes, and seconds.
+  - Start, pause, and reset the timer.
+  - Resume the timer from the paused state.
+  - Prevents multiple intervals from running simultaneously.
+  - Handles input normalization (e.g., converts 90 seconds to 1 minute and 30 seconds).
+
 ## How to Run
 1. Clone the repository:
    ```bash
